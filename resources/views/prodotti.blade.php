@@ -4,8 +4,6 @@
 
 @section('titolo' , "Prodotti")
 
-@dump($paste)
-
 @section('content')
     <div class="cardcontainer flexRowCenter">
         @foreach ($paste as $pasta)
