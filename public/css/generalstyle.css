@@ -57,6 +57,9 @@ body {
     width: 100%;
 }
 
+.headerNavbar li{
+    padding: 12px;
+}
 .headerNavbar li:hover {
     background-color: #B3E5FC;
 }

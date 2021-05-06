@@ -1,0 +1,28 @@
+.cardcontainer {
+    flex-wrap: wrap;
+    background-color: #d2e0e6;
+}
+
+.card {
+    position: relative;
+    width: 30%;
+    height: 40vh;
+}
+.card img {
+    height: 100%;
+    width: 100%;
+}
+
+.productInfo {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card:hover 
+.productInfo {
+    display: block;
+}
