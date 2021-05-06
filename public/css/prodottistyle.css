@@ -13,16 +13,46 @@
     width: 100%;
 }
 
+
 .productInfo {
     display: none;
+    flex-direction: column;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
+    padding: 16px;
+    color: rgba(0,25,66,1);
+    overflow:auto;
+}
+
+.productInfo h3 {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.tecnicalInfo {
+    margin-bottom: 20px;
+}
+
+.tecnicalInfo span {
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+
+
+
+
+/*effetti hover */
+.card:hover
+img {
+    opacity: 0.5;
 }
 
 .card:hover 
 .productInfo {
-    display: block;
+    display: flex;
+    background-color: #ffffff52;
 }

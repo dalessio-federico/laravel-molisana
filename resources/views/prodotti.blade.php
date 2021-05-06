@@ -12,7 +12,13 @@
         <div class="card">
             <img src="{{$pasta["src"]}}" alt="immagine prodotto">
             <div class="productInfo">
-                <p>{{$pasta["titolo"]}}</p>
+                <h3>{{$pasta["titolo"]}}</h3>
+                <div class="tecnicalInfo flexRowSpacearound">
+                    <p><span>Tipo</span>{{$pasta["tipo"]}}</p>
+                    <p><span><i class="fab fa-hotjar"></i></span>{{$pasta["cottura"]}}</p>
+                    <p><span><i class="fas fa-weight"></i></span>{{$pasta["peso"]}}</p>
+                </div>
+                <p>{{$pasta["descrizione"]}}</p>
             </div>
         </div>
         @endforeach
