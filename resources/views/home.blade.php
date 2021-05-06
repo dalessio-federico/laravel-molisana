@@ -2,6 +2,10 @@
 
 @section('titolo' , "Home")
 
+@section('cssfile', "css\homestyle.css")
+
 @section('content')
-    <h1>Sono un contenuto!</h1>
+    <div class="homeContainer">
+        <h1>Sono un contenuto!</h1>
+    </div>
 @endsection
