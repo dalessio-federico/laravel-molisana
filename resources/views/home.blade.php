@@ -2,7 +2,9 @@
 
 @section('titolo' , "Home")
 
-@section('cssfile', "css/homestyle.css")
+@section('links')
+<link rel="stylesheet" href="{{asset("css\homestyle.css")}}">
+@endsection
 
 @section('content')
     <div class="homeContainer">

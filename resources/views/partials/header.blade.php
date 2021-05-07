@@ -5,13 +5,13 @@
     </div>
     <div class="headerNavbar">
         <ul class="inlineList flexRowSpaceAround">
-            <li>
+            <li class="{{ (Request::route()->getName() == "Homepage") ? "active" : ""}}">
                 <a href="{{route("Homepage")}}">Home</a>
             </li>
-            <li>
+            <li class="{{ (Request::route()->getName() == "Prodotti-Pasta") ? "active" : ""}}">
                 <a href="{{route("Prodotti-Pasta")}}">Prodotti</a>
             </li>
-            <li>
+            <li class="{{ (Request::route()->getName() == "News") ? "active" : ""}}">
                 <a href="{{route("News")}}">News</a>
             </li>
         </ul>

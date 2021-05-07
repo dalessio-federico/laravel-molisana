@@ -70,6 +70,10 @@ body {
     color: rgba(0,25,66,1);
 }
 
+.active {
+    background-color: #B3E5FC;
+}
+
 /* Fine Css Header */
 
 

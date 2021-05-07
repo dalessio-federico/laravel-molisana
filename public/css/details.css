@@ -1,0 +1,36 @@
+.detailsContainer {
+    width: 100%;
+    background-color: #d2e0e6;
+}
+
+.topsection {
+    height: 90vh;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.topsection img {
+    height: 100%;
+    width: 100%;
+}
+
+.centralSection {
+    padding: 50px;
+    background-color: #d5e3e9;
+}
+
+.centralSection p {
+    font-size: 20px;
+    font-family: 'Newsreader', serif;
+    color: rgba(0,25,66,1);
+}
+
+.bottomSection {
+    height: 80vh;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.bottomSection img {
+    height: 100%;
+    width: 100%;
+}
